@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="es">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="css/master.css">
 </head>
-<body style="background-color:#FFEBDB;">
+<body style="background-color:#0E2859;">
     <main role="main" class="container my-auto"></main>
         <div class="row">
             <div id="login" class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
-                <h2 class="text-center">Login</h2>
-                <center>
-                <img  style="border-radius: 50px;" width="100" height="100"  
-                        src="https://icon-library.com/images/username-icon/username-icon-11.jpg" />
-                </center>
+                <div class="login-box">
+                    <h2 class="text-center">Login</h2>
+                
+                    <img src="img/iconoUser.jpg" class="avatar" alt="Avatar Image">
                 <form>
                     <div class="form-group">
                         <label for="user">Username</label>
@@ -20,15 +20,22 @@
                         <label for="palabraSecreta">Password</label>
                         <input id="palabraSecreta"  class="form-control" type="password"
                             placeholder="Password">
-                    </div><br>
-                    <center>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Remember user
+                        </label>
+                      </div>
+                        
                         <div class="d-grid gap-2 col-6 mx-auto">
                             <button class="btn btn-primary" type="button">Log in</button>
                           </div>
                           <a href="#">Forgotten password?</a>
-                    </center>
                     <br>
                 </form>
+                  </div>
+              
             </div>
         </div>
     </main>
